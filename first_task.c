@@ -1,11 +1,12 @@
-#include <studio.h>;
+#include <stdio.h>
 
-int main{} {
-    int x;
-
-    printf("Dear user!");
+int main()
+{
+    float x;
+    printf("Dear user!\n");
     printf("Enter a number, I will print its square!");
-    scanf("%d", x);
-    x = x*x
-    printf("x square is: %f", x);
+    scanf("%f", &x);
+    x = x * x;
+    printf("\nx square is: %f\n", x);
+    return 0;
 }
